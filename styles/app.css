@@ -40,6 +40,7 @@ h3 {
 }
 .logo {
   width: 90px;
+  margin-bottom: 0px;
 }
 .navbar {
   margin-bottom: 100px;
@@ -143,6 +144,7 @@ about-link {
     width: 50px;
     height: auto;
     text-align: center;
+    margin-bottom: 0px;
   }
   .navigation-links a {
     border-radius: 4px;
@@ -153,7 +155,7 @@ about-link {
     padding-right: 0px;
   }
   .weather-img {
-    max-width: 274px;
+    max-width: 250px;
     height: auto;
   }
   img {
