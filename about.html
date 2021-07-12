@@ -33,8 +33,8 @@
         color: rgb(56, 56, 56);
         margin-top: none;
       }
-      .mt-100 {
-        margin-top: 170px;
+      .mt-20 {
+        margin-top: 20px;
         line-height: 0.8;
       }
       .img-dim {
@@ -44,7 +44,9 @@
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top"
+    >
       <div class="container-fluid">
         <a class="nav-link" href="index.html">
           <img src="images/logo-loop.png" alt=logo" class="logo sm"/>
@@ -63,10 +65,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav justify-content-flex-end">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="about.html">Work</a>
             </li>
             <li class="nav-item"></li>
           </ul>
@@ -74,11 +76,13 @@
       </div>
     </nav>
 
-    <a href="index.html" class="homepage-link">Back to homepage</a>
-    <h1 class="mt-100">About me</h1>
+    <a href="index.html" class="homepage-link d-none d-sm-block"
+      >Back to homepage</a
+    >
+    <h1 class="h1-font mt-20">About me</h1>
     <h3>Front-end developer from Cali, Colombia</h3>
 
-    <div class="container">
+    <div class="container mt-0">
       <div class="row height-row">
         <div class="about-paragraphs bg-transparent">
           <p>
@@ -113,7 +117,7 @@
       </div>
 
       <div id="contact">
-        <h2 class="mt-100">📮 Contact me</h2>
+        <h2 class="mt-9">📮 Contact me</h2>
         <a href="mailto:[email]" class="email-link">
           valenmarinocol@gmail.com
         </a>
