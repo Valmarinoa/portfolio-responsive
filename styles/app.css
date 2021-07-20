@@ -22,6 +22,16 @@ body {
   padding-left: 100px;
   padding-right: 100px;
 }
+
+.container-about {
+  max-width: 700px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: inline-block;
+  text-align: center;
+}
 .navbar {
   width: 100%;
   display: flex;
