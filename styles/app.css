@@ -120,6 +120,10 @@ about-link {
   width: auto;
 }
 
+.on-author {
+  margin-bottom: 150px; 
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
