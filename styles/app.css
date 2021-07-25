@@ -1,8 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 :root {
   --primary-color: #d2d4c0;
   --secondary-color: #dedfd798;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 body {
   margin: 60px auto;
@@ -21,6 +29,7 @@ body {
   margin-top: 60px;
   padding-left: 100px;
   padding-right: 100px;
+  align-items: center;
 }
 
 .container-about {
@@ -37,7 +46,7 @@ body {
   display: flex;
 }
 .h1-font {
-  font-size: 100px;
+  font-size: 10vw;
 }
 
 .h2-font {
@@ -47,6 +56,7 @@ body {
 h3 {
   font-size: 22px;
   opacity: 0.7;
+ 
 }
 .logo {
   width: 90px;
@@ -77,9 +87,9 @@ p {
 }
 
 .navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
+  margin: 15px;
+  border-radius: 30px;
+  padding: 15px 15px;
   text-decoration: none;
   text-transform: capitalize;
   margin-top: 30px;
@@ -93,14 +103,21 @@ p {
 }
 .contact-link:hover,
 .about-link:hover {
-  border-radius: 6px;
-  outline: 1px solid var(--primary-color);
   outline-offset: -1px;
   background-color: #ffffff;
   color: #d2d4c0;
 }
 about-link {
   color: var(--primary-color);
+}
+.row {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.weather-img {
+  max-height: 350px;
+  width: auto;
 }
 
 .homepage-link {
@@ -117,6 +134,14 @@ about-link {
 .about-paragraphs p {
   margin: 10px;
   background-color: transparent;
+}
+.project-link {
+padding: 10px 40px 10px 40px ;
+background-color: transparent;
+color: rgb(33, 37, 41);
+text-decoration: none;
+border-radius: 30px ;
+border-color: rgb(33, 37, 41) 1px;
 }
 
 .email-link {
@@ -137,7 +162,11 @@ about-link {
 .evenly {
   justify-content: space-evenly;
 }
-
+.p-description {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
 @media (max-width: 576px) {
   .h1-font {
     font-size: 48px;
@@ -158,14 +187,15 @@ about-link {
   }
   .navigation-links a {
     border-radius: 4px;
-    padding: 15px 10px;
+    padding: 10px 10px;
+    font-size: 12px;
   }
   .container {
     padding-left: 0px;
     padding-right: 0px;
   }
   .weather-img {
-    max-width: 250px;
+    max-width: 260px;
     height: auto;
   }
   img {
@@ -174,5 +204,6 @@ about-link {
   p {
     padding-left: 0px;
     padding-right: 0px;
+    font-size: 13px;
   }
 }
