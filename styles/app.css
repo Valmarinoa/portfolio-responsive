@@ -119,10 +119,27 @@ about-link {
   max-height: 350px;
   width: auto;
 }
+.about-title{
+position: relative;
+bottom: -40px;
+} 
+.profile-picture {
+ max-height: 350px;
+  width: auto;
+}
+
+
+.logos {
+  filter: grayscale(100%);
+  overflow: hidden;
+  max-height: 40px;
+  max-width: auto;
+}
 
 .on-author {
   margin-bottom: 150px; 
 }
+
 
 .homepage-link {
   color: var(--primary-color);
